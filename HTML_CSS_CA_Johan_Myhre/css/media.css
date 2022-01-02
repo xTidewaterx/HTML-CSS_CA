@@ -1,0 +1,216 @@
+/*here you make use of what you have made on the other pc-adjusted sites
+here you have the pc-audited nav, make all that hamburger-menu dissapear, now the nav i different, above 600px media query*/
+
+@media (max-width:600px) {
+   
+    .active {
+
+        text-decoration: underline;
+        text-underline-offset: 14px;
+    }
+    
+
+ a {
+    color: rgb(255, 255, 255);
+ }
+    nav {
+
+       margin-top: 6vh;
+       margin-top: 50px;
+
+    }
+
+    h2 {
+        color: black;
+        
+    }
+
+    h2:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(165, 101, 112);
+    }
+
+    div.container2 {
+
+  
+        display: grid;
+        grid-template-columns: 40% 20% 20%;
+        column-gap: 5vw;
+        
+    
+    
+    
+    
+        
+    }
+
+    div.container2 {
+
+  
+        display: grid;
+        grid-template-columns: 30% 20% 20%;
+        column-gap: 7vw;
+        min-width: 300px;
+        
+    
+    
+    
+    
+        
+    }
+
+  
+    
+}
+
+@media (min-width: 600px) {
+
+
+    a {
+        color: black;
+    }
+    
+    nav {
+
+        display: flex;
+        position: static;
+        margin: 0;
+        
+        background-color: rgb(151, 61, 61);
+        max-width: none;
+     
+        
+    }
+
+    .active {
+
+        text-decoration: underline;
+        text-underline-offset: 7px;
+        background-color: rgb(218, 218, 218);
+        padding: 18px;
+    
+    }
+    
+    nav:hover .active{
+    
+        
+        background-color: rgba(0, 0, 128, 0);
+    
+    
+      
+    
+    }
+    
+    nav:hover ~ active{
+    
+        display: none;
+    }
+
+    
+
+    nav {
+
+        display: ruby;
+        position: static;
+        margin: 0;
+        
+        background-color: rgb(255, 255, 255);
+        max-width: none;
+        width: 60vw;
+      
+        color: rgb(0, 0, 0);
+    
+     
+        
+    }
+
+    ul {
+        display: flex;
+        margin: 0 auto;
+        word-spacing: 2px;
+        margin: 0px;
+        float: right;
+        padding-bottom: 20px;
+        padding-top: 20px;
+       
+      
+    }
+
+    ul:hover {
+      
+        margin: 0 auto;
+        word-spacing: 2px;
+        margin: 0px;
+        background-color: rgb(230, 101, 219);
+        background-color: rgb(190, 91, 157);
+        color: cornsilk;
+        padding: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 34px ;
+        padding-right: 15vw;
+        position: absolute;
+        margin-top: -34px;
+        border-top-left-radius: 10% 50%;
+        border-bottom-left-radius: 10% 50%;
+ 
+    
+
+      
+        
+        
+        
+    
+    }
+
+    ul:hover a {
+        color: rgb(255, 255, 255);
+      
+    
+      
+        
+        
+        
+    
+    }
+
+
+    a {
+
+        margin: 0;
+    }
+
+    /*nav:hover a all the a's in the nav, hover a*/ 
+
+    
+
+    #aColour:hover {
+
+        color: rgb(248, 227, 227);
+        
+    }
+
+    li {
+
+      
+        margin: 0;
+        margin-right: 3.3vw;
+        padding: 0;
+        
+    }
+    #rightLi {
+        margin-right: 0;
+    }
+  
+
+    a:hover {
+
+        color: cornsilk;
+    }
+
+    label {
+        display: none;
+    }
+
+
+}
