@@ -1,0 +1,143 @@
+#logo {
+
+    width: 80px;
+    margin-top: 20px;
+}
+
+
+footer {
+
+    position:sticky;
+    text-align: center;
+    background-color: rgb(240, 240, 96);
+   
+    padding: 40px;
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+
+    margin: 0;
+   
+}
+
+h2 {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(170, 121, 170);
+    background-color: rgb(219, 166, 219);
+    
+ 
+
+position: sticky;
+display: unset;
+margin-left: 2.2vw;
+margin-right: 2.2vw;
+justify-content: center;
+align-items: center;
+display: grid;
+font-size: clamp(20px, 3vw, 32px);
+
+
+
+  
+    /*I used the clamp function to ensure readability with any viewport, my max and min font-size ensures this across all widths on different devices*/
+
+
+
+
+}
+
+
+
+
+
+/*COPYYYY*/
+
+
+
+nav {
+    background-color: rgb(176, 180, 216);
+    width: 25vw;
+    max-width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    top: 45px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35vw;
+    display: none;
+    position: fixed;
+    top: 45px;
+    background: var(--color-header-footer);
+    z-index: 1000;
+
+
+
+    background-color: rgb(0, 0, 0);
+
+  }
+
+
+ul  {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flexbox;
+    margin: 0 auto;
+    right: 0;
+
+ 
+ 
+
+
+}
+
+li {
+
+
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  
+
+ 
+}
+
+a {
+
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+nav {
+    position: fixed;
+    margin-left: 35vw;
+
+    display: none;
+    width: 60vw;
+    
+}
+
+
+#hamburger-menu:checked ~ nav {
+
+    display: block;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     width: 70vw;
+    margin: 0 auto;
+}

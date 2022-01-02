@@ -1,0 +1,73 @@
+
+.container {
+
+    max-width: 800px;
+   display: block;
+   margin: 0 auto;
+   position: relative;
+
+}
+
+img {
+
+    width: 25vw;
+    float: right;
+    shape-outside: circle(69.70% at -146px 329px);
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+#image1 {
+
+    float: right;
+    position: absolute;
+    right: 0;
+  
+  
+
+  
+
+
+
+}
+#image2.aboutImage1 {
+ 
+
+}
+#image2 {
+    position: relative;
+float: right;
+margin-left: 5rem;
+margin-top: 100px;
+margin-top: 1vw;
+padding: 3vw;
+margin-bottom: 200px;
+
+shape-outside: circle(30vw at 35.52vw 15.34vw);
+}
+
+
+
+/*right zero makes the position absolute image overwritten by the id with exclusive 
+descriptions in CSS lay to the right, airtight on the right, oblivious to other images, position absolute, absolute,
+disregard all other positions, add circle, and it will grow with vw, so that the wave has some resemblance with it sourroundings*/
+
+
+
+p {
+   width: 80vw;
+    max-width: 600px;
+    text-align: center;
+    
+    margin: 0 auto;
+    text-align: left;
+   
+}

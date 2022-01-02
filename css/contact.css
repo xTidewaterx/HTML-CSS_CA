@@ -1,0 +1,66 @@
+
+div.container1 {
+
+    margin: 0 auto;
+
+}
+
+div.container2 {
+    margin-top: 10vh;
+
+  
+    display: grid;
+    grid-template-columns: 40% 20% 20%;
+    column-gap: 5vw;
+    margin-left: 8vw;
+    
+    text-align: center;
+
+
+
+
+    
+}
+
+
+img {
+
+    width: 200px;
+  
+
+
+    float: right;
+    margin-top: -2vw;
+}
+
+
+.contactImage {
+
+    width: 90vw;
+    max-width: 800px;
+    display: flexbox;
+    margin: 0 auto;
+   
+    padding: 19px;
+}
+
+
+
+#p3 {
+
+right: 0;
+}
+
+p {
+
+    max-width: 600px;
+    padding: 30px;
+
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+
+  
+}
